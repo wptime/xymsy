@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+		<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+		<constant name="struts.devMode" value="false" />
+		<constant name="struts.multipart.maxSize" value="5242880" />
+		
+		<package name="account" namespace="/account" extends="struts-default">
+
+			<action name="*" class="com.xymsy.actionImp.AccountAction"
+				method="{1}">
+				<result name="logfail">/login.jsp</result>
+				
+				<result name="logsuccess" type="redirect">/index.jsp</result>
+				
+				<result name="registerfail">/register.jsp</result>
+				
+				<result name="registersuccess" type="redirect">/index.jsp</result>
+				
+				<result name="logout" type="redirect">/index.jsp</result>
+				<result name="securitycode" type="stream">
+					<param name="contentType">image/jpeg</param>  
+	                <param name="inputName">imageStream</param>  
+	                <param name="bufferSize">2048</param> 
+				</result>
+			</action>
+		</package>
+		
+		<package name="main" namespace="/main" extends="struts-default">
+			<action name="*" class="com.xymsy.actionImp.MainAction"
+				method="{1}">
+				<result name="login">/login.jsp</result>
+				<result name="goodsinfo">/goodsInfo.jsp</result>
+				<result name="index">/goodsList.jsp</result>
+				<result name="goodsnotexist">index</result>
+				<result name="enterstore">/SC_index.jsp</result>
+				<result name="head">/index.jsp</result>
+				<result name="createOrder">/PC_orders.jsp</result>
+				<result name="insertSuccess">/PCs.jsp</result>
+				<result name="error" type="redirect">/error.jsp</result>
+			</action>
+		</package>
+		
+		<package name="person" namespace="/person" extends="struts-default">
+			<action name="*" class="com.xymsy.actionImp.PersonAction"
+				method="{1}">
+				<result name="addgoodssuccess" type="redirect">/SC.jsp</result>
+				<result name="addgoodsfail" type="redirect">/error.jsp</result>
+				<result name="showstore" type="redirect">/SC_index.jsp</result>
+				<result name="applyShop" type="redirect">/SC_applyshop.jsp</result>
+				<result name="SC">/SC.jsp</result>
+				<result name="login" type="redirect">/login.jsp</result>
+				<result name="error" type="redirect">/error.jsp</result>
+			</action>
+		</package>
+		
+		<package name="seller" namespace="/seller" extends="struts-default">
+			<action name="*" class="com.xymsy.actionImp.SellerAction"
+				method="{1}">
+				<result name="sellermanage" type="redirect">/z_sellermanage.jsp</result>
+				<result name="login" type="redirect">/login.jsp</result>
+				<result name="certification" >person/shopStatu</result>
+				<result name="error" type="redirect">/error.jsp</result>
+			</action>
+		</package>
+		
+		<package name="Admin" namespace="/Admin" extends="struts-default">
+			<action name="*" class="com.xymsy.actionImp.AdminAction"
+				method="{1}">
+				<result name="showAllUser">/Admin/frame/noteMeasuringUser.jsp</result>
+				<result name="showAllUserInfo">/Admin/frame/minuteUser.jsp</result>
+				<result name="showTimeInfo">/Admin/frame/timeUser.jsp</result>
+				<result name="showBuyerInfo">/Admin/frame/buyUser.jsp</result>
+				<result name="showSellerInfo">/Admin/frame/sellUser.jsp</result>
+				<result name="showStoreInfo">/Admin/frame/storeManager.jsp</result>
+				<result name="showAllGoods">/Admin/frame/allGoods.jsp</result>
+				<result name="showSellingGoods">/Admin/frame/onSale.jsp</result>
+				<result name="showSelledGoods">/Admin/frame/beenSale.jsp</result>
+				<result name="showAllAdmin">/Admin/frame/administratorUser.jsp</result>
+			</action>
+		</package>
+
+</struts>

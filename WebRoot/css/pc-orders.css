@@ -1,0 +1,314 @@
+#myhome{
+	padding-top:10px; 
+	width:1100px;
+	margin:0 auto;
+	font-size: 12px;
+}
+.main{
+	width: 1097px;
+	border: 1px solid #d9d9d9;
+	margin: 20px 0 34px 0;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+
+
+.head{
+	height: 50px;
+	width: auto;
+	border-bottom: 1px solid #d9d9d9;
+	background: #f6f6f6;
+}
+
+.head h2{
+	font-size: 18px;
+	line-height: 55px;
+	overflow: hidden;
+	color: #7d7d7d;
+	position: relative;
+	left: 15px;
+	top: 15px;
+	background: url("../images/checkout-title.gif")no-repeat 0 0;
+	height: 19px;
+}
+.step-current:hover{
+	border: 2px solid #1cabb4;
+	margin: -1px;
+}
+
+.step-title{
+	height: 45px;
+	padding: 15px 0 0 26px;
+	line-height: 36px;
+}
+
+.step-title strong{
+	font-size: 16.67px;
+	color: #7d7d7d;
+	font-weight: normal;
+}
+
+.step-title span{
+	display: inline;
+	padding-left: 20px;
+	font-size: 12.5px;
+}
+
+.step-title a{
+	color: #1cabb4;
+	font-size: 12.5px;
+}
+
+.box-wrap{
+	padding: 0 44px;
+}
+
+
+
+.list{
+	padding: 5px 0;
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+
+.textbox{
+	width: 138px;
+	border: 1px solid #ccc;
+	padding: 4px 3px;
+	font-family: Arial,"\5b8b\4f53",sans-serif;
+}
+
+.consignee-form span{
+	font-size: 12.5px;
+}
+
+.lable{
+	width: 85px;
+	height: 26px;
+	margin-right: 5px;
+	float: left;
+	color: #666;
+	line-height: 26px;
+	text-align: right;
+}
+
+.lable em{
+	margin-right: 5px;
+	color: #f60;
+	font-family: sans-serif;
+	font-style: normal;
+}
+
+.field{
+	height: 26px;
+	float: left;
+	line-height: 26px;
+}
+
+.status{
+	height: 26px;
+	padding-left: 6px;
+	float: left;
+	color: #c00;
+	line-height: 26px;
+}
+
+
+
+
+
+
+
+.full-address .textbox{
+	width: 546px;
+}
+
+.phone em{
+	font-style: normal;
+	padding: 0 20px 0 5px;
+}
+
+.phone span{
+	color: #666;
+}
+
+.phone input{
+	width: 106px;
+}
+
+
+
+.form-btn {
+	height: 30px;
+	padding-top: 26px;
+	padding-left: 13px;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+.btn-submit span{
+	border-radius: 5px; 
+	padding: 7px 20px;
+	background-color: #1cabb4;
+	height: 30px;
+	font-size: 15px;
+	color:#fff;
+	font-weight:normal;
+	cursor: pointer;
+}
+.op {
+	margin-left: 7px; 	
+}
+.op:hover {
+	background-color: #fff4d3;
+}
+.op span {
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+
+
+.shoplist {
+	width: 1097px;
+	min-height: 450px;
+
+}
+.shoplist:hover {
+	border: 2px solid #1cabb4;
+	margin: -1px;
+}
+.shoplist1 {
+	font-size: 16.67px;
+	color: #7d7d7d;
+	position: relative;
+	top: 20px;
+	left: 25px;
+}
+.shoplist table {
+	position: relative;
+	left: 25px;
+	top: 35px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.shoplist th {
+	font-size: 12.5px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #eeeeee;
+	color: #7d7d7d;
+}
+.shoplist th,td {
+	width: 12em;
+	text-align: center;	
+}
+.shoplist td {
+	height: 126px;
+	font-size: 12.5px;
+}
+
+.shoplist thead th:nth-child(1) {
+	width: 450px;
+}
+.shoplist td img {
+	border: 1px solid #eeeeee;
+	float: left;
+	position: relative;
+	left: 20px;
+	top: -6px;
+}
+.shopname {
+	font-size: 12.5px;
+	color: #7d7d7d;
+	position: relative;
+	top: -10px;
+	left: 10px;
+}
+.shopnumber {
+	font-size: 12.5px;
+	color: #999;
+	position: relative;
+	top: 15px;
+	left: -75px;
+}
+.shopreturn {
+	font-size: 12.5px;
+	color: #999;
+	position: relative;
+	left: -66px;
+	top: 20px;
+}
+td input {
+	font-size: 12.5px;
+	width: 135px;
+	height: 21px;
+	color: white;
+	background-color: #ffa700;
+	border-radius: 2px 2px 2px 2px;
+	border: none;
+	cursor: pointer;
+}
+.settle-account {
+	width: 300px;
+	min-height: 100px;
+	float: right;
+	margin-top: 60px;
+}
+.settle-account p span {
+	font-size: 12.5px;
+	height: 25px;
+	line-height: 25px;
+}
+.settle1 {
+	position: relative;
+	left: 
+}
+.settle2,.settle3 {
+	margin-left: 77px;
+}
+.settle4 {
+	margin-left: 51px;
+}
+.money {
+	position: relative;
+	left: 120px;
+}
+
+.settle-accounts {
+	height: 48px;
+	line-height: 48px;
+	background-color: #eeeeee;
+	position: relative;
+	top: 10px;
+}
+.settle-accounts p {
+	font-size: 16.67px;
+	float: right;
+	
+}
+.settle-accounts span {
+	font-size: 16.67px;
+	color: #ffa700;
+
+}
+.settle-accounts input {
+	width: 106px;
+	height: 34px;
+	font-size: 16.67px;
+	color: #bfbfbf;
+	background-color: white;
+	border: 1px solid #bfbfbf;
+	border-radius: 2px 2px 2px 2px;
+	cursor: pointer;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.settle-accounts input:hover {
+	background-color: #1cabb4;
+	color: white;
+}
+

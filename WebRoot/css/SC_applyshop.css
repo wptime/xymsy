@@ -1,0 +1,19 @@
+.title{margin:0;}
+.warpper-middle{padding: 10px 10px 50px 20px;}
+.title-small{font-size: 12px;}
+.rule{margin-top: 15px;font-size: 13px;}
+.rule-cen{float: left;padding: 17px;}
+.rule ul li{width:253px;height: 68px;border:1px solid #7d7d7d;margin-right: 20px;	float: left;background-color: #f9f9f9;}
+.rule ul li strong{	color: #757574;}
+.num{float: left;width: 61px;height: 67px;text-align: center;line-height: 67px;font-size: 40px;}
+.title-small a{	color:#1cabb4;}
+.addshop{float: left;width: 200px;margin-top: 20px;}
+.button-addshop{background-color: #1cabb4;color: #fff;margin: 10px 10px 10px 0;display: inline-block;width: 115px;height: 38px;text-align: center;font-size: 20px;line-height: 38px;border-radius: 3px;font-family: "Microsoft YaHei" ! important;}
+.button-addshop:hover{font-weight:bold;color:#fff;}
+.addrule{font-size:13px;}
+.shop-center{padding: 0 9%;max-width: 100%;margin-top: 20px;}
+.shop-table input{width: 200px;background-image: url("../images/input.jpg");}
+.sub{text-align: center;background-color: #1cabb4;color: #fff;border: navajowhite;}
+.sub:hover{font-weight: bold;}
+.reapply,.sub,.button-addshop,.shopping,.reregister{cursor: pointer;}
+.shopimg{width: 120px;float: left;margin: 10px 0;}

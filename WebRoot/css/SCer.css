@@ -1,0 +1,101 @@
+﻿
+.data_k{
+	border: 2px solid #1cabb4;
+	width: 668px;
+	height: 300px;
+}
+.data_t{
+	border-bottom: 1px solid #D1D2CA;
+	height: 26px;
+	padding-top: 4px;
+}
+.data_tl{
+	font-size: 16px;
+	font-weight: bold;
+	color: #5C5E51;
+	margin-left: 10px;
+}
+.data_v{
+	color: #37BEFF;
+	margin-left: 450px;
+	font-size: 10px;
+}
+#data_c{
+	border-bottom: 1px solid #A4CBF2;
+	height: 27px;
+	padding-top: 9px;
+	font-size: 13px;
+	background-color: #F0F9FD;
+}
+#trade{
+	margin-left: 20px;
+	width: 70px;
+	height: 23px;
+	position: absolute;
+	text-align: center;
+	padding-top: 4px;
+}
+#trade:hover{
+	color:#959591!important;
+}
+#visit{
+	margin-left: 90px;
+	width: 70px;
+	height: 23px;
+	position: absolute;
+	text-align: center;
+	padding-top: 4px;
+}
+#visit:hover{
+	color:#959591!important;
+}
+.data_p{
+	margin-left: 550px;
+	color: #1cabb4;
+}
+
+.bgcolor{
+    background:#fff;
+    border: 1px solid #A4CBF2;
+    border-bottom: none!important;
+}
+table{
+	border-collapse: collapse;
+	width: 608px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+td{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+.more a{
+	font-size: 14px;
+	margin-left: 30px;
+}
+.bllo{
+	margin-top: 15px;
+}
+.bllo ul li{
+	float: left;
+	width: 95px;
+	height: 23px;
+	border: 1px solid #DBF7FB;
+	border-radius: 5px;
+	background-color: #F0FFFF;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 1px;
+}
+.bllo ul{
+	margin-left: 30px;
+}
+#p2 table td{
+	width: 120px;
+}
+
+
+
+
+

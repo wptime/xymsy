@@ -1,0 +1,264 @@
+#tip_-s-e-c-u-r-i-t-y-C-o-d-e{
+	
+position: relative;
+top: -35px;
+left: 406px;
+}
+.Correct, .Wrong, .Exp {
+	display: inline-block;
+	height: 22px;
+	line-height: 18px;
+	width: 200px;
+	padding: 2px 5px 2px 2em;
+	font-size: 12px;
+	vertical-align:middle;
+	
+}
+.Correct {
+	background: url(../images/register.png) 5px 0 no-repeat;
+
+
+	color: #008800;
+}
+.Wrong {
+	background: url(../images/register.png) 5px -77px no-repeat;
+	
+	color: #8b2b34;
+}
+.Exp {
+	background: url(../images/register.png) 5px -132px no-repeat;
+	color: #006699;
+}
+.clear {
+	clear: both;
+}
+#tip_-c-h-e-c-k {
+	position: relative;
+	top: -30px;
+	left: 407px;
+}
+body, * {
+    margin:0;
+    padding: 0;
+    font-family: "Microsoft YaHei" ! important;
+    font-size:12px;
+    color: #959591;
+}
+img{border:none;}
+#header {
+	width: 1000px;
+	height: 85px;
+	margin: 0 auto;
+}
+.logo {
+	height: 85px;
+	width: 350px;
+	float: left;
+}
+.logo-sper {
+	display: inline-block;
+	width: 14px;
+	height: 34px;
+	background: url(../images/logo-sper.png) no-repeat;
+	position: relative;
+	top: -28px;
+	
+}
+.logo span {
+	font-size: 21px;
+	color: #7d7d7d;
+	position: relative;
+	top: -25px;
+}
+#nav {
+	width: 1150px;
+	height: 20px;
+	background: url(../images/nav.png) no-repeat;
+	margin: 0 auto;
+}
+#header .login {
+	width: 200px;
+	height: 80px;
+	float: right;
+}
+#header .login span {
+	font-size: 12px;
+	color: #666;
+	position: relative;
+	top: 30px;
+}
+#header .login button {
+	width: 64px;
+	height: 32px;
+	border: 1px solid #e8e8e8;
+	background: #fafafa;
+	border-radius: 3px 3px 3px 3px;
+	position: relative;
+	top: 28px;
+	left: 10px;
+	cursor: pointer;
+}
+#header .login a {
+	font-size: 12px;
+	color: #666;
+	font-weight: bold;
+}
+#main {
+	width: 1000px;
+	height: 432px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+#main .reg_main {
+	width: 720px;
+	float: left;
+
+}
+
+.label_main label {
+height: 42px;
+width: 65px;
+margin-right: 10px;
+line-height: 42px;
+font-size: 14px;
+color: #666;
+font-weight: bold;
+text-align: right;
+float: left;
+
+}
+.label_main input {
+position: relative;
+height: 42px;
+line-height: 42px;
+width: 328px;
+border: 1px solid #ddd;
+font-size: 14px;
+color: #666;
+}
+.label_main {
+	width: 720px;
+	height: 42px;
+	margin-top: 20px;
+
+}
+.pic_check {
+	display: block;
+	width: 100px;
+	height: 38px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-left: 10px;
+}
+#main .check_main {
+	width: 153px;
+	float: left;
+}
+.label_main a {
+text-decoration: none;
+position: relative;
+top: -15px;
+left: 10px;
+color: #1cabb4;
+}
+.label_main a:hover {
+	text-decoration: underline;
+}
+.agree_main {
+	width: 328px;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 75px;
+	margin-top: 25px;
+}
+.agree_main input {
+	float: left;
+	margin-top: 5px;
+}
+.agree_main label {
+	margin-left: 5px;
+	color: #666;
+}
+.agree_main a {
+	text-decoration: none;
+	color: #1cabb4;
+}
+.securityCode {
+	margin-left:10px;
+	height: 42px;
+}
+.agree_main a:hover {
+	text-decoration: underline;
+}
+.sub_main {
+	width: 350px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #fff;
+	background-color: #1cabb4;
+	border-radius: 3px;
+	border: none;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+.sub_main:hover {
+	background-color: #1DB3BD;
+}
+#main .reg_sms {
+	width: 260px;
+	height: 210px;
+	border: 1px solid #d1eeff;
+	background: #f5fbff;
+	float: left;
+}
+.reg_sms h3 {
+	margin: 0 10px;
+	padding-left: 30px;
+	height: 50px;
+	line-height: 50px;
+	background: url(../images/phone.png) left center no-repeat;
+	border-bottom: 1px solid #e6edf2;
+	font-size: 14px;
+	color: #666;
+}
+.reg_sms_content {
+	width: 258px;
+	height: 112px;
+	margin-top: 20px;
+	text-indent: 10px;
+}
+.reg_sms .reg_sms_p_text {
+	color: #666;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.reg-sms .reg-sms-p {
+	margin: 0 10px;
+}
+.reg_sms .reg_sms_p_warn {
+	font-size: 14px;
+	color: #f18300;
+	font-weight: bold;
+}
+.reg_sms .reg_sms_p_last  {
+	color: #666;
+	font-size: 12px;
+	margin-top: 5px;
+}
+#foot {
+	width: 980px;
+	height: 15px;
+	text-align: center;
+	color: #1cabb4;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+}
+.copy-box {
+	color: #1cabb4; 
+}

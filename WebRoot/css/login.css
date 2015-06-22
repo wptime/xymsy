@@ -1,0 +1,235 @@
+body, * {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color: #959591;
+    font-family: "Microsoft YaHei" ! important;
+    list-style: none;
+}
+.head {
+	width: 1100px;
+	height: 120px;
+	margin: 0 auto;
+	background-image: url(../images/logo.png) ;
+	background-repeat: no-repeat;
+	background-position: 0 20px;
+}
+.warpper {
+	width: 1100px;
+	height: 530px;
+	margin: 0 auto;
+}
+.warpper-login {
+	width: 1100px;
+	height: 500px;
+	margin: 0 auto;
+}
+.warpper-left {
+	width: 547px;
+	height: 500px;
+	float: left;
+	background-image: url(../images/pic.png);
+	background-repeat: no-repeat;
+	background-position: 150px 60px;
+	cursor: pointer;
+}
+.warpper-right {
+	width: 547px;
+	height: 500px;
+	float: left;
+}
+.login {
+	width: 320px;
+	min-height: 340px;
+	border: 2px solid #dedede;
+	border-top: 2px solid #1cabb4;
+	margin: 60px 130px;
+}
+.login img {
+	float: right;
+	cursor: pointer;
+}
+.hd {
+	width: 320px;
+	height: 26px;
+	margin-top: 40px;
+
+}
+.hd h2 {
+	font-size: 15px;
+	color: #333;
+	margin-left: 30px;
+
+}
+#caution {
+	width: 260px;
+	height: 22px;
+	border: 1px solid #FF8080;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	background: url(../images/err.png) no-repeat #FFF2F2;
+	display: none;
+}
+#caution1 {
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	color: #333;
+	text-indent: 25px;
+}
+.bd {
+	width: 260px;
+	height: 195px;
+	margin: 20px auto;
+}
+
+.field-name,.field-past{
+	width: 260px;
+	height: 26px;
+}
+
+.username {
+	width: 260px;
+	height: 26px;
+	text-indent: 35px;
+	border: 1px solid #dedede;
+	background: url(../images/icon-label2.png) no-repeat -1px -1px;
+}
+.userpass {
+	width: 260px;
+	height: 26px;
+	text-indent: 35px;
+	border: 1px solid #dedede;
+	background: url(../images/icon-label2.png) no-repeat -1px -48px;
+	margin-top: 20px;
+}
+/*
+.field-pass {
+	width: 260px;
+	height: 27px;
+	margin-top: 20px;
+	border: 1px solid #dedede;
+	background: url(../images/icon-label2.png) no-repeat -1px -48px;
+}
+.userpass {
+	width: 229px;
+	height: 23px;
+	border: 1px solid #dedede;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	margin-top: 1px;
+	margin-left: 28px;
+	text-indent: 7px;
+}
+*/
+.safe {
+	width: 260px;
+	height: 26px;
+	margin-top: 39px;
+}
+.safe input {
+	vertical-align: middle;
+}
+.safe label {
+	vertical-align: middle;
+	color: #aaa;
+	font-size: 12px;
+}
+.safe a {
+	font-size: 12px;
+	margin-left: 80px;
+	color: #666;
+}
+.safe a:hover {
+	color: #1cabb4;
+	text-decoration: underline;
+}
+.Submit {
+	width: 260px;
+	height: 38px;
+	border: 0;
+	line-height: 36px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+	background: #1cabb4;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 17px;
+	letter-spacing: 20px;
+	padding-left: 10px;
+}
+.Submit:hover {
+	background-color: #0598A2;
+}
+.fd {
+	width: 260px;
+	height: 28px;
+	margin: -5px auto;
+	margin-bottom: 25px;
+}
+.fd ul li {
+	display: inline-block;
+}
+.entries li a{
+	font-size: 12px;
+	color: #666;
+}
+.entries li a:hover {
+	color: #1cabb4;
+	text-decoration: underline;
+}
+.wf {
+	display: inline-block;
+	text-indent: 20px;
+	background: url(../images/wf.png) no-repeat 0 -2px;
+}
+.zf {
+	display: inline-block;
+	text-indent: 20px;
+	margin-left: 10px;
+	background: url(../images/icon-alipay.png) no-repeat;
+}
+.zc {
+	margin-left: 45px;
+}
+
+#foot {
+	width: 1100px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+
+
+.foot2 {
+	text-align: center;
+}
+.foot2 ul li {
+	display: inline-block;
+}
+.foot2 a {
+	height: 45px;
+	line-height: 45px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #707070;
+}
+
+.foot3 {
+	height: 80px;
+}
+.foot3 p {
+	text-align: center;
+	font-size: 12px;
+	color: #707070;
+}
+
+
+
+
+
+
+
+
+
